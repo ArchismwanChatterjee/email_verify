@@ -1,0 +1,38 @@
+/* login.css */
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.form-group {
+  width: 300px;
+  margin: 20px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.btn {
+  width: 25%;
+  padding: 10px;
+  cursor: grabbing;
+}
+
+.error-msg {
+  color: red;
+  margin-top: 10px;
+}
+
+.info-msg {
+  color: green;
+  margin-top: 10px;
+}
+
+/* Add more styling as needed */
